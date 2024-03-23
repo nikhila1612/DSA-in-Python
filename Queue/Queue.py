@@ -1,3 +1,6 @@
+# Removing ->1->2->3->4->Adding
+
+
 class Node:
     def __init__(self,value):
         self.value=value
