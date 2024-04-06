@@ -192,7 +192,7 @@ class LinkedList:
         self.head=self.tail
         self.tail=temp
         # Initialize variables for the next and previous nodes
-        after=temp.next
+        after=None
         before=None
         # Iterate through the list to reverse the next pointers
         for _ in range(self.length):
